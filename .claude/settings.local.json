@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(winget install --id Git.Git -e --source winget)",
+      "PowerShell($env:PATH = [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"Machine\"\\) + \";\" + [System.Environment]::GetEnvironmentVariable\\(\"PATH\", \"User\"\\); echo \"# visitka\" >> README.md; git init; git add .; git commit -m \"first commit\"; git branch -M main; git remote add origin https://github.com/Saidmuhammad2020/visitka.git; git push -u origin main)"
+    ]
+  }
+}

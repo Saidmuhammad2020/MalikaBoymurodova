@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 156 96" role="img" aria-label="FintechStan">
+  <defs>
+    <linearGradient id="fsBlue" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#7CB8EC"/>
+      <stop offset="1" stop-color="#2E7CC4"/>
+    </linearGradient>
+    <linearGradient id="fsGray" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#9498A0"/>
+      <stop offset="1" stop-color="#6C7075"/>
+    </linearGradient>
+  </defs>
+  <!-- back peak (gray, long sweeping tail) -->
+  <path d="M40 76 L86 20 L150 84" fill="none" stroke="url(#fsGray)"
+        stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- front peak (azure) -->
+  <path d="M8 76 L50 38 L94 76" fill="none" stroke="url(#fsBlue)"
+        stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
