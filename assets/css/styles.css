@@ -119,13 +119,11 @@ h1, h2 { margin: 0; }
   margin-bottom: clamp(18px, 4vw, 26px);
 }
 .brand { display: flex; align-items: center; gap: 10px; }
-.brand__mark { height: 30px; width: auto; }
-.brand__name {
-  font-family: var(--font-head);
-  font-weight: 800;
-  letter-spacing: 2.5px;
-  font-size: 15px;
-  color: var(--navy);
+.brand__mark {
+  height: 56px;
+  width: auto;
+  mix-blend-mode: multiply;
+  border-radius: 6px;
 }
 .status {
   display: inline-flex;
