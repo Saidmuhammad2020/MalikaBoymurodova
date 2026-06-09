@@ -120,7 +120,7 @@ h1, h2 { margin: 0; }
 }
 .brand { display: flex; align-items: center; gap: 10px; }
 .brand__mark {
-  height: 56px;
+  height: 64px;
   width: auto;
   mix-blend-mode: multiply;
   border-radius: 6px;
